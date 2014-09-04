@@ -21,7 +21,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor colorWithRed:51.0/255 green:52.0/255 blue:55.0/255 alpha:1.0];
-
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,6 +34,7 @@
     [self.passwordField resignFirstResponder];
 
 }
+
 - (IBAction)testLogin:(id)sender
 {
     NSMutableString *loginRequest = [[NSMutableString alloc] init];
